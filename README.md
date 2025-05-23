@@ -20,5 +20,5 @@ A responsive and visually engaging dark-themed Home Screen for a fictional trave
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/travel-agency-homepage.git
+git clone https://github.com/RaviGauta1121/TravelAgency.git
 cd travel-agency-homepage
