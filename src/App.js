@@ -674,9 +674,19 @@ const TravelAgencyHomepage = () => {
             </div>
           </div>
           
-          <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 WanderLux Travel Agency. All rights reserved. | Privacy Policy | Terms of Service</p>
-          </div>
+         <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
+  <p className="mb-2">
+    &copy; 2025 <span className="text-white font-semibold">WanderLux Travel Agency</span>. All rights reserved.
+  </p>
+  <p className="mb-2">
+    <a href="#" className="hover:text-white transition duration-300">Privacy Policy</a> | 
+    <a href="#" className="hover:text-white transition duration-300 ml-1">Terms of Service</a>
+  </p>
+  <p className="text-xs italic text-gray-500 mt-4">
+    Made with <span className="text-red-500">♥</span> by <span className="text-white font-medium">Ravi</span> — Thanks for being part of the journey.
+  </p>
+</div>
+
         </div>
       </footer>
 
